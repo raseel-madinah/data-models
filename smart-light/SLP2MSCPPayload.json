@@ -1,0 +1,111 @@
+{
+   "streetLight": {
+      "type": "Streetlight",
+      "name": "<THE_HOLE_NAME_FROM_MASTER_DATA>",
+      "alternateName": "<SLP_ID>",
+      "location": {
+         "type": "Point",
+         "coordinates": [
+            -3.164485591715449,
+            40.62785133667262
+         ]
+      },
+      "areaServed": "Roundabouts city entrance",
+      "status": "ok",
+      "lanternHeight": 10,
+      "locationCategory": "centralIsland",
+      "powerState": "off",
+      "controllingMethod": "individual",
+      "powerConsumption": 10,
+      "current": 250,
+      "powerRating": 5,
+      "powerFactor": 0.7,
+      "voltage": 50,
+      "feederPillarNum": "70",
+      "streetPoleNum": "2",
+      "municipalityInfo": {
+         "municipalityName": "Medinah municipality",
+         "stateName": "Karnataka",
+         "cityName": "Bangalore",
+         "zoneName": "Al Difaa"
+      },
+      "description": "Know animal nice far sound understand market through. Best always before.",
+      "deviceInfo": {
+         "serialNumber": "",
+         "deviceName": "SL1",
+         "deviceID": "devuid",
+         "measurand": "6",
+         "deviceModel": {
+            "brandName": "abc",
+            "modelName": "SL1",
+            "modelURL": "www.abcstreetlight.com"
+         }
+      },
+      "streetLightGroups": [
+         {
+            "streetLightGroup": {
+               "type": "StreetlightGroup",
+               "name": "<NAME_OF_HIERARCHY>",
+               "alternateName": "<MULTICAST_GROUP_ID>",
+               "location": {
+                  "type": "MultiLineString",
+                  "coordinates": [
+                     [
+                        [
+                           100.0,
+                           0.0
+                        ],
+                        [
+                           101.0,
+                           1.0
+                        ]
+                     ],
+                     [
+                        [
+                           102.0,
+                           2.0
+                        ],
+                        [
+                           103.0,
+                           3.0
+                        ]
+                     ]
+                  ]
+               }
+            }
+         }
+      ],
+      "streetLightCabinet": {
+         "type": "StreetlightControlCabinet",
+         "name": "س70",
+         "alternateName": "<TATA_SLP_DB_ID>",
+         "location": {
+            "type": "Point",
+            "coordinates": [
+               -3.164485591715449,
+               40.62785133667262
+            ]
+         }
+      },
+      "streetLightModel": {
+         "type": "StreetlightModel",
+         "name": "Tubular Numana 6M - ASR42CG - Son-T 100",
+         "columnModelName": "01 TUBULAR P/T 6M NUMANA",
+         "columnColor": "green",
+         "lanternModelName": "ASR42CG",
+         "lanternManufacturerName": "Indal WRTL",
+         "lampModelName": "SON-T",
+         "lampBrandName": "Philips",
+         "lampTechnology": "HPS",
+         "powerConsumption": 100,
+         "colorTemperature": 3000,
+         "colorRenderingIndex": 25,
+         "workingLife": 903.3,
+         "category": [
+            "lightTower"
+         ],
+         "maxPowerConsumption": 646.1,
+         "minPowerConsumption": 662.0
+      }
+   }
+}

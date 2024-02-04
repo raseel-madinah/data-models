@@ -1,0 +1,71 @@
+{
+	"id": "device-9845A",
+	"type": "Device",
+	"category": {
+		"type": "Text",
+		"value": [
+			"sensor"
+		]
+	},
+	"batteryLevel": {
+		"type": "Number",
+		"value": 0.75
+	},
+	"dateFirstUsed": {
+		"type": "DateTime",
+		"value": "2014-09-11T11:00:00Z"
+	},
+	"controlledAsset": {
+		"type": "Relationship",
+		"value": [
+			"wastecontainer-Osuna-100"
+		]
+	},
+	"serialNumber": {
+		"type": "Text",
+		"value": "9845A"
+	},
+	"mcc": {
+		"type": "Text",
+		"value": "214"
+	},
+	"value": {
+		"type": "Text",
+		"value": "l%3D0.22%3Bt%3D21.2"
+	},
+	"refDeviceModel": {
+		"type": "Relationship",
+		"value": "myDevice-wastecontainer-sensor-345"
+	},
+	"rssi": {
+		"type": "Number",
+		"value": 0.86
+	},
+	"controlledProperty": {
+		"type": "array",
+		"value": [
+			"fillingLevel",
+			"temperature"
+		]
+	},
+	"owner": {
+		"type": "array",
+		"value": [
+			"http://person.org/leon"
+		]
+	},
+	"mnc": {
+		"type": "Text",
+		"value": "07"
+	},
+	"ipAddress": {
+		"type": "array",
+		"value": [
+			"192.14.56.78"
+		]
+	},
+	"deviceState": {
+		"type": "Text",
+		"value": "ok"
+	}
+}

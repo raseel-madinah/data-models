@@ -1,0 +1,248 @@
+{
+    "id": "PG123",
+    "type": "ParkingGroup",
+    "name": {
+        "type":"String",
+        "value":"test",
+        "metadata": {
+          "timestamp": {
+            "type": "DateTime",
+            "value": "2022-12-11T12:00:00"
+          }
+        }
+    },
+    "category": {
+      "type":"",
+      "value": ["onStreet", "offStreet", "onlyDisabled"],
+      "metadata": {
+        "timestamp": {
+          "type": "DateTime",
+          "value": "2022-12-11T12:00:00"
+        }
+      }
+    },
+    "refParkingSite": {
+      "type": "Relationship",
+      "value": "test",
+      "metadata": {
+        "timestamp": {
+          "type": "DateTime",
+          "value": "2022-12-11T12:00:00"
+        }
+      }
+    },
+    "requiredPermit": {
+      "type":"",
+      "value": "disabledPermit",
+      "metadata": {
+        "timestamp": {
+          "type": "DateTime",
+          "value": "2022-12-11T12:00:00"
+        }
+      }
+    },
+    "permitActiveHours": {
+        "type": "StructuredValue",
+        "value": {},
+        "metadata": {
+          "timestamp": {
+            "type": "DateTime",
+            "value": "2022-12-11T12:00:00"
+           }
+        }
+    },
+    "allowedVehicleType": {
+      "type":"String",
+      "value": "car",
+      "metadata": {
+        "timestamp": {
+          "type": "DateTime",
+          "value": "2022-12-11T12:00:00"
+        }
+      }
+    },
+    "availableSpotNumber": {
+      "type":"integer",  
+      "value": 1,
+      "metadata": {
+        "timestamp": {
+          "type": "DateTime",
+          "value": "2022-12-11T12:00:00"
+        }
+      }
+    },
+    "totalSpotNumber": {
+      "type":"integer",  
+      "value": 3,
+      "metadata": {
+        "timestamp": {
+          "type": "DateTime",
+          "value": "2022-12-11T12:00:00" 
+        }
+      }
+    },
+    "location": {
+      "type": "geo:json",
+      "value": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-3.80356167695194, 43.46296641666926],
+            [-3.803161973253841, 43.46301091092682],
+            [-3.803147082548618, 43.462879859445884],
+            [-3.803536474744068, 43.462838666196674],
+            [-3.80356167695194, 43.46296641666926]
+          ]
+        ]
+      }
+    },
+    "chargeType": {
+      "type": "",
+      "value": ["free"],
+      "metadata": {
+        "timestamp": {
+          "type": "DateTime",
+          "value": "2022-12-11T12:00:00" 
+        }
+      }
+    },
+    "description": {
+      "type":"String",
+      "value": "Two parking spots reserved for disabled people",
+      "metadata": {
+        "timestamp": {
+          "type": "DateTime",
+          "value": "2022-12-11T12:00:00" 
+        }
+      }
+    },
+    "address": {
+        "type": "StructuredValue",
+        "value": {
+            "addressCountry": "",
+            "addressLocality": "",
+            "addressRegion": "",
+            "postOfficeBoxNumber": "",
+            "postalCode": "",
+            "streetAddress": "test"
+        },
+        "metadata": {
+          "timestamp": {
+            "type": "DateTime",
+            "value": "2022-12-11T12:00:00" 
+          }
+        }
+    },
+    "maximumParkingDuration": {
+        "type":"String",  
+        "value": "",
+        "metadata": {
+          "timestamp": {
+            "type": "DateTime",
+            "value": "2022-12-11T12:00:00"
+          }
+        }
+      },
+      "refParkingSpot": {
+        "type":"String",  
+        "value": "",
+        "metadata": {
+          "timestamp": {
+            "type": "DateTime",
+            "value": "2022-12-11T12:00:00"
+          }
+        }
+      },
+      "areBordersMarked": {
+        "type":"boolean",  
+        "value": "true",
+        "metadata": {
+          "timestamp": {
+            "type": "DateTime",
+            "value": "2022-12-11T12:00:00"
+          }
+        }
+      },
+      "maximumAllowedHeight": {
+        "type":"number",  
+        "value": 0,
+        "metadata": {
+          "timestamp": {
+            "type": "DateTime",
+            "value": "2022-12-11T12:00:00"
+          }
+        }
+      },
+      "maximumAllowedWidth": {
+        "type":"number",  
+        "value": 0,
+        "metadata": {
+          "timestamp": {
+            "type": "DateTime",
+            "value": "2022-12-11T12:00:00"
+          }
+        }
+      },
+      "occupancyDetectionType": {
+        "type": "String",  
+        "value": "",
+        "metadata": {
+          "timestamp": {
+            "type": "DateTime",
+            "value": "2022-12-11T12:00:00"
+          }
+        }
+      },
+      "source": {
+        "type": "String",  
+        "value": "test",
+        "metadata": {
+          "timestamp": {
+            "type": "DateTime",
+            "value": "2022-12-11T12:00:00"
+          }
+        }
+      },
+      "dataProvider": {
+        "type": "String",  
+        "value": "test",
+        "metadata": {
+          "timestamp": {
+            "type": "DateTime",
+            "value": "2022-12-11T12:00:00"
+          }
+        }
+      },
+    "dateCreated": {
+        "type": "datetime",  
+        "value": "The datetime this entity was created",
+        "metadata": {
+          "timestamp": {
+            "type": "DateTime",
+            "value": "2022-12-11T12:00:00"
+          }
+        }
+      },
+      "dateModified": {
+        "type": "datetime",  
+        "value": "The datetime this entity was last modified",
+        "metadata": {
+          "timestamp": {
+            "type": "DateTime",
+            "value": "2022-12-11T12:00:00"
+          }
+        }
+      },
+      "ext": {
+        "type": "StructuredValue",
+        "value": {
+            "gracePeriod": 10,
+            "securePreBookingDuration": 10,
+            "deleted": false,
+            "smartBillingCapable": false,
+            "chargeGranularity": 15,
+            "chargeUnitPrice": 5
+        }
+    }
+
+  }

@@ -1,0 +1,18 @@
+{
+  "id": "<AUTO_GENERATED>",
+  "type": "Alert",
+  "category": "light",
+  "subCategory": "streetlight",
+  "severity": "<high> or <low>",
+  "location": {
+    "type": "Point",
+    "coordinates": [-3.712247222222222, 40.423852777777775]
+  },
+  "dateIssued": "<Time Date>",
+  "validFrom": "<Time Date>",
+  "validTo": "",
+  "description": "<The equivalent value to the number 0 1 2 3 etc",
+  "alertSource": "<ALert Condition> or <Alert Restored Condition>",
+  "dateCreated": "2009-07-23T10:24:53Z", 
+  "dateModified": "2007-02-28T02:52:29Z"
+}

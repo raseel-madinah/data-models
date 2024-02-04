@@ -1,0 +1,187 @@
+{
+	"SignagepLayerGroup": {
+		"id": "247",
+		"type": "SignagePlayerGroup",
+		"displayGroup": {
+			"type": "string",
+			"value": "The displayGroup Name",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"description": {
+			"type": "string",
+			"value": "The displayGroup Description",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"isDisplaySpecific": {
+			"type": "integer",
+			"value": "A flag indicating whether this displayGroup is a single display displayGroup",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"isDynamic": {
+			"type": "integer",
+			"value": 1,
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"dynamicCriteria": {
+			"type": "string",
+			"value": "Criteria for this dynamic group. A comma separated set of regular expressions to apply",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"dynamicCriteriaLogicalOperator": {
+			"type": "string",
+			"value": "Which logical operator should be used when filtering by multiple dynamic criteria? OR|AND",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"dynamicCriteriaTags": {
+			"value": "Criteria for this dynamic group. A comma separated set of tags to apply, it should be integer",
+			"type": "string",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"dynamicCriteriaExactTags": {
+			"value": "Flag indicating whether to filter by exact Tag match,it should be integer",
+			"type": "integer",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"dynamicCriteriaTagsLogicalOperator": {
+			"value": "Which logical operator should be used when filtering by multiple Tags? OR|AND",
+			"type": "string",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"userId": {
+			"value": "The UserId who owns this display group, it should be an integer",
+			"type": "integer",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"tags": {
+			"type": "array",
+			"value": [
+				{
+					"tagId": 0,
+					"tag": "Tag Name",
+					"value": "Tag Value"
+				},
+				{
+					"tagId": 1,
+					"tag": "Tag Name",
+					"value": "Tag Value"
+				}
+			],
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"bandwidthLimit": {
+			"value": "The display bandwidth limit, it should be an integer",
+			"type": "integer",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"groupsWithPermissions": {
+			"value": "A comma separated list of groups/users with permissions to this DisplayGroup",
+			"type": "string",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"createdDt": {
+			"value": "The datetime this entity was created",
+			"type": "datetime",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"modifiedDt": {
+			"value": "The datetime this entity was last modified",
+			"type": "datetime",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"folderId": {
+			"value": "The id of the Folder this Display Group belongs to, it should be an integer",
+			"type": "integer",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"permissionsFolderId": {
+			"value": "The id of the Folder responsible for providing permissions for this Display Group, it should be an integer",
+			"type": "integer",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		}
+	}
+}

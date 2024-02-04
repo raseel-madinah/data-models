@@ -1,0 +1,50 @@
+{
+  "id": "<DEVUID>",
+  "type": "Streetlight",
+  "name": "",
+  "alternateName": "<SLP_ID>",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -3.164485591715449,
+      40.62785133667262
+    ]
+  },
+  "areaServed": "Roundabouts city entrance",
+  "status": "ok",
+  "lanternHeight": 10,
+  "locationCategory": "centralIsland",
+  "powerState": "off",
+  "controllingMethod": "individual",
+  "powerConsumption": 10,
+  "current": 250,
+  "powerRating": 5,
+  "powerFactor": 0.7,
+  "voltage": 50,
+  "feederPillarNum": "70",
+  "streetPoleNum": "2",
+  "municipalityInfo": {
+    "municipalityName": "Medinah municipality",
+    "stateName": "Karnataka",
+    "cityName": "Bangalore",
+    "zoneName": "Al Difaa"
+  },
+  "description": "Know animal nice far sound understand market through. Best always before.",
+  "deviceInfo": {
+    "serialNumber": "",
+    "deviceName": "SL1",
+    "deviceID": "devuid",
+    "measurand": "6",
+    "deviceModel": {
+      "brandName": "abc",
+      "modelName": "SL1",
+      "modelURL": "www.abcstreetlight.com"
+    }
+  },
+  "observationDateTime": "2021-01-11T15:51:02+05:30",
+  "dateCreated": "2015-10-02T20:08:41Z",
+  "dateModified": "1981-01-22T07:59:22Z",
+  "dateLastSwitchingOn": "2010-06-10T00:59:09Z",
+  "dateLastSwitchingOff": "2001-09-19T19:31:13Z",
+  "dateServiceStarted": "1976-04-30T02:16:57Z"
+}

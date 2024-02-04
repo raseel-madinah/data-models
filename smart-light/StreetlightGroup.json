@@ -1,0 +1,33 @@
+{
+  "id": "<GROUP_NAME_TATA",
+  "type": "StreetlightGroup",
+  "name": "<NAME_OF_HIERARCHY>",
+  "alternateName": "<MULTICAST_GROUP_ID>",
+  "location": {
+    "type": "MultiLineString",
+    "coordinates": [
+      [
+        [
+          100.0,
+          0.0
+        ],
+        [
+          101.0,
+          1.0
+        ]
+      ],
+      [
+        [
+          102.0,
+          2.0
+        ],
+        [
+          103.0,
+          3.0
+        ]
+      ]
+    ]
+  },
+  "dateCreated": "2015-10-02T20:08:41Z", 
+  "dateModified": "1981-01-22T07:59:22Z"
+}

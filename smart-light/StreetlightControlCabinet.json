@@ -1,0 +1,13 @@
+{
+  "id": "<AUTO_GENERATED>",
+  "type": "StreetlightControlCabinet",
+  "name": "س70",
+  "alternateName": "<TATA_SLP_DB_ID>",
+  "location": {
+    "type": "Point",
+    "coordinates": [-3.164485591715449, 40.62785133667262]
+  },
+  "description": "Practice might company popular father." ,
+  "dateCreated": "2009-07-23T10:24:53Z", 
+  "dateModified": "2007-02-28T02:52:29Z"
+}

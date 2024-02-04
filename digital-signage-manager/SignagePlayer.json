@@ -1,0 +1,596 @@
+{
+	"SignagePlayer": {
+		"id": "urn:xyz:1212",
+		"display": {
+			"type": "string",
+			"value": "The Name of this Display",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"description": {
+			"type": "string",
+			"value": "The Description of this Display",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"defaultLayoutId": {
+			"type": "integer",
+			"value": "The ID of the Default Layout",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"license": {
+			"type": "string",
+			"value": "The Display Unique Identifier also called hardware key",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"licensed": {
+			"type": "integer",
+			"value": "A flag indicating whether this Display is licensed or not",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"loggedIn": {
+			"type": "integer",
+			"value": "A flag indicating whether this Display is currently logged in",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"lastAccessed": {
+			"type": "integer",
+			"value": "A timestamp in CMS time for the last time the Display accessed XMDS",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"incSchedule": {
+			"type": "integer",
+			"value": "A flag indicating whether the default layout is interleaved with the Schedule",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"emailAlert": {
+			"type": "integer",
+			"value": "A flag indicating whether the Display will send email alerts.",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"alertTimeout": {
+			"type": "integer",
+			"value": "A timeout in seconds for the Display to send email alerts.",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"clientAddress": {
+			"type": "string",
+			"value": "The MAC Address of the Display",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"mediaInventoryStatus": {
+			"type": "integer",
+			"value": "The media inventory status of the Display",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"macAddress": {
+			"type": "string",
+			"value": "The current Mac Address of the Player",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"lastChanged": {
+			"type": "integer",
+			"value": "A timestamp indicating the last time the Mac Address changed",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"numberOfMacAddressChanges": {
+			"type": "integer",
+			"value": "A count of Mac Address changes",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"lastWakeOnLanCommandSent": {
+			"type": "integer",
+			"value": "A timestamp indicating the last time a WOL command was sent",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"wakeOnLanEnabled": {
+			"type": "integer",
+			"value": "A flag indicating whether Wake On Lan is enabled",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"wakeOnLanTime": {
+			"type": "string",
+			"value": "A h:i string indicating the time to send a WOL command",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"broadCastAddress": {
+			"type": "string",
+			"value": "The broad cast address for this Display",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"secureOn": {
+			"type": "string",
+			"value": "The secureOn WOL settings for this display.",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"cidr": {
+			"type": "string",
+			"value": "The CIDR WOL settings for this display",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"location": {
+			"type": "geo:json",
+			"value": {
+				"type": "Point",
+				"coordinates": [
+					-3.80356167695194,
+					43.46296641666926
+				]
+			}
+		},
+		"clientType": {
+			"type": "string",
+			"value": "A string representing the player type",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"clientVersion": {
+			"type": "string",
+			"value": "A string representing the player version",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"clientCode": {
+			"type": "integer",
+			"value": "A number representing the Player version code",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"displayProfileId": {
+			"type": "integer",
+			"value": "The display settings profile ID for this Display",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			},
+			"relatedTo": {
+				"type": "string",
+				"value": "XIBO-CMS"
+			}
+		},
+		"currentLayoutId": {
+			"type": "integer",
+			"value": "The current layout ID reported via XMDS",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				},
+				"relatedTo": {
+					"type": "string",
+					"value": "XIBO-CMS"
+				}
+			}
+		},
+		"screenShotRequested": {
+			"type": "integer",
+			"value": "A flag indicating that a screen shot should be taken by the Player",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"storageAvailableSpace": {
+			"type": "integer",
+			"value": "The number of bytes of storage available on the device.",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"storageTotalSpace": {
+			"type": "integer",
+			"value": "The number of bytes of storage in total on the device",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"displayGroupId": {
+			"type": "integer",
+			"value": "The ID of the Display Group for this Device",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				},
+				"relatedTo": {
+					"type": "string",
+					"value": "XIBO-CMS"
+				}
+			}
+		},
+		"currentLayout": {
+			"type": "string",
+			"value": "The current layout",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"defaultLayout": {
+			"type": "string",
+			"value": "The default layout",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"xmrChannel": {
+			"type": "string",
+			"value": "The Player Subscription Channel",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"xmrPubKey": {
+			"type": "string",
+			"value": "The Player Public Key",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"lastCommandSuccess": {
+			"type": "integer",
+			"value": "The last command success, 0 = failure, 1 = success, 2 = unknown",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"deviceName": {
+			"type": "string",
+			"value": "The Device Name for the device hardware associated with this Display",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"timeZone": {
+			"type": "string",
+			"value": "The Display Timezone, or empty to use the CMS timezone",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"tags": {
+			"type": "array",
+			"value": [
+				{
+					"tagId": 0,
+					"tag": "Tag Name",
+					"value": "Tag Value"
+				},
+				{
+					"tagId": 1,
+					"tag": "Tag Name",
+					"value": "Tag Value"
+				}
+			],
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"overrideConfig": {
+			"type": "string",
+			"value": "The configuration options that will overwrite Display Profile Config",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"bandwidthLimit": {
+			"type": "integer",
+			"value": "The display bandwidth limit",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"newCmsAddress": {
+			"type": "string",
+			"value": "The new CMS Address",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"newCmsKey": {
+			"type": "string",
+			"value": "The new CMS Key",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"orientation": {
+			"type": "string",
+			"value": "The orientation of the Display, either landscape or portrait",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"resolution": {
+			"type": "string",
+			"value": "The resolution of the Display expressed as a string in the format WxH",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"commercialLicence": {
+			"type": "integer",
+			"value": "Status of the commercial licence for this Display. 0 - Not licensed, 1 - licensed, 2 - trial licence, 3 - not applicable",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"teamViewerSerial": {
+			"type": "string",
+			"value": "The TeamViewer serial number for this Display",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"webkeySerial": {
+			"type": "string",
+			"value": "The Webkey serial number for this Display",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"groupsWithPermissions": {
+			"type": "string",
+			"value": "A comma separated list of groups/users with permissions to this Display",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"createdDt": {
+			"type": "string",
+			"value": "The datetime this entity was created",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"modifiedDt": {
+			"type": "string",
+			"value": "The datetime this entity was last modified",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"folderId": {
+			"type": "integer",
+			"value": "The id of the Folder this Display belongs to",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"permissionsFolderId": {
+			"type": "integer",
+			"value": "The id of the Folder responsible for providing permissions for this Display",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"countFaults": {
+			"type": "integer",
+			"value": "The count of Player reported faults",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"lanIpAddress": {
+			"type": "string",
+			"value": "LAN IP Address, if available on the Player",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"auditingUntil": {
+			"type": "integer",
+			"value": "Flag indicating whether this Display is recording Auditing Information from XMDS",
+			"metadata": {
+				"timestamp": {
+					"type": "datetime",
+					"value": "2018-09-27T12:00:00"
+				}
+			}
+		},
+		"refDevice": {
+			"type": "Relationship",
+			"value": "urn:ngsi-ld:DeviceModel:myDevice-wastecontainer-sensor-345"
+		},
+		"refSignagePlayerGroup": {
+			"type": "Relationship",
+			"value": "247"
+		}
+	}
+}

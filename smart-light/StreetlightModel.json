@@ -1,0 +1,22 @@
+{
+  "id": "<AUTO_GENERATED>",
+  "type": "StreetlightModel",
+  "name": "Tubular Numana 6M - ASR42CG - Son-T 100",
+  "columnModelName": "01 TUBULAR P/T 6M NUMANA",
+  "columnColor": "green",
+  "lanternModelName": "ASR42CG",
+  "lanternManufacturerName": "Indal WRTL",
+  "lampModelName": "SON-T",
+  "lampBrandName": "Philips",
+  "lampTechnology": "HPS",
+  "powerConsumption": 100,
+  "colorTemperature": 3000,
+  "colorRenderingIndex": 25,
+  "category": ["postTop"],
+  "description": "Full half indicate group meet throw reality. Subject it travel recent near be.",
+  "dateCreated": "2015-10-02T20:08:41Z", 
+  "dateModified": "1981-01-22T07:59:22Z",
+  "workingLife": 903.3,
+  "maxPowerConsumption": 646.1, 
+  "minPowerConsumption": 662.0
+}
